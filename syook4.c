@@ -19,3 +19,32 @@ blink_LED();
 return 0;
 }
 
+void getAccelerometerdata()
+{
+}
+bool detectmovement(float x,float y,float z)
+{
+}
+int main()
+{
+  while(1)
+{
+float accelX,accely,accelz;
+getaccelerometerdata(&accelX,&accely,&accelz);
+bool ismoving=detectmovement(accelX,accely,accelz);
+
+if(ismoving)
+{
+}
+else()
+{
+  }
+
+}
+
+
+return 0;
+}
+
+
+
